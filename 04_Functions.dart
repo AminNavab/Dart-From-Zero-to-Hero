@@ -1,3 +1,50 @@
+void main() {
+  String first = "amin";
+  String last = "navab";
+  int a = 10;
+  int b = 20;
+  double c = 10.10;
+  double d = 20.20;
+  // (1) void function
+  full_name(first, last);
+  sum();
+  // (2) int function
+  int x = sum2(a, b);
+  print(x);
+  // (3) double function
+  double y = sum3(c, d);
+  print(y);
+  // (4) string function
+  String z = full_name2(first, last);
+  print(z);
+  // (5) bool function
+  bool w = check(a, b);
+  print(w);
+  // Optional parameter:
+  from(first, last);
+  from(first, last, "birjand");
+  print(from2(first, last));
+  print(from2(first, last, "tehran"));
+  print(from3(first, last));
+  // laebal parameter:
+  print(sum4(a: 5, b: 10, c: -2));
+  human(name: "amin", city: "birjand", age: 22);
+  // requaired parameter:
+  print(sum5(a: 5, b: 6, c: 3));
+  human2(name: "ali", age: 20, city: "abadan");
+  // anonymus function:
+  // ==>> (variable){..................};
+  //    list_name.forEach(element){............};
+
+  // function key;
+  Function A = aa;
+  Function B = bb;
+  print(A == B);
+  // small function
+  display("amin");
+  age(22);
+}
+
 void full_name(String first, String last) {
   print(first + last);
 }
