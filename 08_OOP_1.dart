@@ -1,3 +1,49 @@
+void main() {
+  // make object
+  // (1) calss_name - object_name = class_name();
+  // (2) calss_name - object_name = new - class_name();
+  //--------------------------------------------
+  // (1) default constructor
+  animal_1 dog = animal_1();
+  dog.name = "dog";
+  dog.wight = 33;
+  dog.color = "green";
+  dog.age = 10;
+
+  animal_1 cat = new animal_1();
+  cat.name = "cat";
+  cat.wight = 44;
+  cat.color = "blue";
+  cat.age = 6;
+  // (2.1) have constructor
+  animal_2 dog_2 = animal_2("dog", 40, "whait", 6);
+  animal_2 cat_2 = new animal_2("cat", 50, "black", 5);
+  // (2.2) have constructor
+  animal_3 dog_3 = animal_3("dog", 40, "whait", 6);
+  animal_2 cat_3 = new animal_2("cat", 50, "black", 5);
+  // (3) named constructor
+  car BMW = car.bmw("bmw", 2020);
+  car FORD = car.ford();
+  FORD.brand = "ford";
+  FORD.years = 2022;
+  // (4) redirect constructor
+  car_2 benz = car_2();
+
+  // acssise
+  print(cat.name);
+  cat_2.sleep();
+  cat_3.walk();
+  print(dog.age);
+  dog_2.display();
+  print(dog_3.color);
+  print(BMW.model);
+  BMW.stsrt();
+  print(FORD.model);
+  FORD.stsrt();
+  print(benz.years);
+  benz.stsrt();
+}
+
 // private variable:
 //    (_variable)
 // public variable:
