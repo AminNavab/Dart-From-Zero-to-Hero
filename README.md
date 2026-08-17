@@ -54,3 +54,64 @@ This repository is created for learning Dart through simple, focused, and runnab
 
 ---
 
+### 🟩 Mixins
+
+- Creating Mixins with `mixin`
+- Using Mixins with `with`
+- Multiple Mixins
+- Mixin restrictions with `on`
+
+---
+
+### ⚡ Asynchronous Programming
+
+- Synchronous vs Asynchronous execution
+- `Future`
+- `async`
+- `await`
+- `.then()`
+- `catchError()`
+- Delayed asynchronous operations
+
+---
+
+### 🌊 Streams
+
+- `Stream`
+- `async*`
+- `yield`
+- Asynchronous Streams
+- `StreamController`
+- `stream.listen()`
+- `StreamSubscription`
+- Adding events with `add()`
+- Closing Streams
+
+---
+
+## 🗂️ Repository Structure
+
+```text
+Dart_Course/
+│
+├── 01_Basic/
+│   ├── 01_Variables.dart
+│   ├── 02_DataType.dart
+│   ├── 03_Operators.dart
+│   ├── 04_Functions.dart
+│   ├── 05_Condations.dart
+│   ├── 06_Loops.dart
+│   └── 07_Input_Output.dart
+│
+├── 02_OOP/
+│   ├── 08_OOP_1.dart
+│   ├── 09_OOP_2.dart
+│   ├── 10_OOP_3.dart
+│   ├── 11_OOP_4.dart
+│   ├── 12_OOP_5.dart
+│   ├── 13_OOP_6.dart
+│   └── 14_MIxin.dart
+│
+├── 15_Concurrency.dart
+├── 16_AsyncStream.dart
+└── 17_StreamController.dart
